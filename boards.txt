@@ -1,7 +1,7 @@
 ################################################################################
 ########################## Arduino Nano 12Mhz Optiboot #########################
 ################################################################################
-NanoOpti.name=SparkFun RedBoard
+NanoOpti.name=Arduino Nano 12Mhz with optiboot
 
 NanoOpti.upload.tool=avrdude
 NanoOpti.upload.protocol=arduino
