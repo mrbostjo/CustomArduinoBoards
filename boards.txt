@@ -1,0 +1,24 @@
+################################################################################
+########################## Arduino Nano 12Mhz Optiboot #########################
+################################################################################
+NanoOpti.name=SparkFun RedBoard
+
+NanoOpti.upload.tool=avrdude
+NanoOpti.upload.protocol=arduino
+NanoOpti.upload.maximum_size=32256
+NanoOpti.upload.maximum_data_size=2048
+NanoOpti.upload.speed=115200
+
+NanoOpti.bootloader.tool=avrdude
+NanoOpti.bootloader.low_fuses=0xFF
+NanoOpti.bootloader.high_fuses=0xDE
+NanoOpti.bootloader.extended_fuses=0x05
+NanoOpti.bootloader.unlock_bits=0x3F
+NanoOpti.bootloader.lock_bits=0x0F
+NanoOpti.bootloader.file=optiboot/optiboot_atmega328.hex
+
+NanoOpti.build.mcu=atmega328p
+NanoOpti.build.f_cpu=12000000L
+NanoOpti.build.board=NANOOPTI
+NanoOpti.build.core=arduino:arduino
+NanoOpti.build.variant=arduino:standard
