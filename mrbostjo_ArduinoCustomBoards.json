@@ -1,1 +1,36 @@
 
+{
+  "packages":[
+      {
+         "name":"CustomArduinoBoards",
+         "maintainer":"mrbostjo",
+         "websiteURL":"noWebYet",
+         "email":"bostjo@gmail.com",
+         "help":{
+            "online":"noHelpYet"
+         },
+         "platforms":[
+            {
+               "name":"mrbostjo AVR Boards",
+               "architecture":"avr",
+               "version":"0.1",
+               "category":"Custom",
+               "url":"https://github.com/mrbostjo/CustomArduinoBoards/raw/master/IDE_Board_Manager/mrbostjo_boards.0.0.1.tar.bz2",
+               "archiveFileName":"mrbostjo_boards.0.0.1.tar.bz2",
+               "checksum":"SHA-256:notYet",
+               "size":"notYet",
+               "help":{
+                  "online":"notYet"
+               },
+               "boards":[
+                  { "name":"Arduino Nano 12Mhz Optiboot" },
+                  { "name":"ATMega128 16Mhz ET-AVR stamp" },
+                  { "name":"ATMega32 16Mhz BreadBoard " }
+               ],
+               "toolsDependencies":[]
+            }
+         ],
+         "tools":[]
+      }
+  ]
+}
