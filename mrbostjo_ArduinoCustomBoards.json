@@ -2,7 +2,7 @@
 {
   "packages":[
       {
-         "name":"CustomArduinoBoards",
+         "name":"mrbostjo_CustomArduinoBoards",
          "maintainer":"mrbostjo",
          "websiteURL":"noWebYet",
          "email":"bostjo@gmail.com",
@@ -23,7 +23,8 @@
                   "online":"notYet"
                },
                "boards":[
-                  { "name":"Arduino Nano 12Mhz Optiboot" },
+                  { "name":"Arduino Nano AtMega328p 16Mhz Optiboot" },
+                  { "name":"Arduino Nano AtMega168 16Mhz Optiboot" },
                   { "name":"ATMega128 16Mhz ET-AVR stamp" },
                   { "name":"ATMega32 16Mhz BreadBoard " }
                ],
