@@ -14,7 +14,7 @@
                "name":"mrbostjo AVR Boards",
                "architecture":"avr",
                "version":"0.1",
-               "category":"Custom",
+               "category":"Contributed",
                "url":"https://github.com/mrbostjo/CustomArduinoBoards/raw/master/IDE_Board_Manager/mrbostjo_boards.0.0.1.tar.bz2",
                "archiveFileName":"mrbostjo_boards.0.0.1.tar.bz2",
                "checksum":"SHA-256:notYet",
@@ -23,8 +23,7 @@
                   "online":"notYet"
                },
                "boards":[
-                  { "name":"Arduino Nano AtMega328p 16Mhz Optiboot" },
-                  { "name":"Arduino Nano AtMega168 16Mhz Optiboot" },
+                  { "name":"Arduino Nano with Optiboot" },
                   { "name":"ATMega128 16Mhz ET-AVR stamp" },
                   { "name":"ATMega32 16Mhz BreadBoard " }
                ],
