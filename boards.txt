@@ -1,7 +1,7 @@
 ################################################################################
-########################## Arduino Nano 12Mhz Optiboot #########################
+############################# Arduino Nano Optiboot ############################
 ################################################################################
-NanoOpti.name=Arduino Nano 12Mhz with optiboot
+NanoOpti.name=Arduino Nano 16Mhz with optiboot
 
 NanoOpti.upload.tool=avrdude
 NanoOpti.upload.protocol=arduino
@@ -10,15 +10,32 @@ NanoOpti.upload.maximum_data_size=2048
 NanoOpti.upload.speed=115200
 
 NanoOpti.bootloader.tool=avrdude
-NanoOpti.bootloader.low_fuses=0xFF
-NanoOpti.bootloader.high_fuses=0xDE
-NanoOpti.bootloader.extended_fuses=0x05
 NanoOpti.bootloader.unlock_bits=0x3F
 NanoOpti.bootloader.lock_bits=0x0F
-NanoOpti.bootloader.file=optiboot/optiboot_atmega328.hex
 
-NanoOpti.build.mcu=atmega328p
-NanoOpti.build.f_cpu=12000000L
-NanoOpti.build.board=NANOOPTI
-NanoOpti.build.core=arduino:arduino
-NanoOpti.build.variant=arduino:standard
+############################# AtMega328 16Mhz ############################
+NanoOpti.menu.bootloader.low_fuses=0xFF
+NanoOpti.menu.bootloader.high_fuses=0xDE
+NanoOpti.menu.bootloader.extended_fuses=0x05
+
+NanoOpti.menu.bootloader.file=optiboot/optiboot_atmega328.hex
+
+NanoOpti.menu.build.mcu=atmega328p
+NanoOpti.menu.build.f_cpu=16000000L
+NanoOpti.menu.build.board=AVR_NANO
+NanoOpti.menu.build.core=arduino:arduino
+NanoOpti.menu.build.variant=arduino:standard
+
+
+############################# AtMega168 16Mhz ############################
+NanoOpti.menu.bootloader.low_fuses=0xFF
+NanoOpti.menu.bootloader.high_fuses=0xDD
+NanoOpti.menu.bootloader.extended_fuses=0x00
+
+NanoOpti.menu.bootloader.file=optiboot/optiboot_atmega168.hex
+
+NanoOpti.menu.build.mcu=atmega168
+NanoOpti.menu.build.f_cpu=16000000L
+NanoOpti.menu.build.board=AVR_NANO
+NanoOpti.menu.build.core=arduino:arduino
+NanoOpti.menu.build.variant=arduino:standard
